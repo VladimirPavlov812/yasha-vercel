@@ -356,7 +356,40 @@ a { color: inherit; text-decoration: none; }
     radial-gradient(circle at 72% 56%, rgba(12,245,116,0.18), transparent 16%),
     radial-gradient(circle at 60% 20%, rgba(245,195,12,0.20), transparent 12%),
     linear-gradient(135deg, #edf0ff 0%, #ffffff 100%);
+    border-left: 1px solid rgba(17,21,28,0.06);
 }
+
+.pin {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--primary);
+  box-shadow: 0 0 0 10px rgba(42,49,176,0.12);
+}
+
+.pin::after {
+  content: attr(data-label);
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  background: rgba(255,255,255,0.94);
+  border: 1px solid rgba(17,21,28,0.08);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.pin--moscow { top: 44%; left: 36%; }
+.pin--mo { top: 52%; left: 47%; }
+.pin--spb { top: 24%; left: 28%; }
+.pin--lo { top: 31%; left: 40%; }
+
+
 
 /* Footer */
 
