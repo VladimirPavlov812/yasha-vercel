@@ -564,3 +564,8 @@ a { color: inherit; text-decoration: none; }
   font-size: 18px;
   line-height: 1.7;
 }
+
+.benefit-icon {
+  width: 240px;
+  height: auto;
+}

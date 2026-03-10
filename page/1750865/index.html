@@ -1,85 +1,196 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Описание сервиса — Сервис Яша</title>
-
-
-<link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сервис «Яша». Описание логики работы</title>
+  <meta name="description" content="Сервис «Яша». Интеграция маркетплейса с шиномонтажем." />
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container site-header__row">
+      <a class="brand" href="/" aria-label="Сервис Яша">
+        <span class="brand__mark">Я</span>
+        <span>Сервис «Яша»</span>
+      </a>
 
-    <header class="site-header">
-  <div class="container site-header__row">
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="/">Главная</a>
+        <a href="/page/1750865">Описание сервиса</a>
+        <a href="/services">Подключение</a>
+        <a href="/contacts">Контакты</a>
+        <a href="/about_us">О нас</a>
+      </nav>
 
-    <a class="brand" href="/" aria-label="Сервис Яша">
-      <span class="brand__mark">Я</span>
-      <span>Сервис «Яша»</span>
-    </a>
+      <a class="button" href="/services">Подключиться</a>
+    </div>
+  </header>
 
-    <nav class="nav">
-      <a href="/">Главная</a>
-      <a href="/page/1750865">Описание сервиса</a>
-      <a href="/services">Подключение</a>
-      <a href="/contacts">Контакты</a>
-      <a href="/about_us">О нас</a>
-    </nav>
-
-    <a class="button" href="/services">Подключиться</a>
-
-  </div>
-</header>
-
-<main>
-  <section class="section">
-    <div class="container">
-      <div class="section__head">
-        <div>
-          <h1>Описание сервиса</h1>
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h1>Сервис “Яша”. Интеграция маркетплейса с шиномонтажем</h1>
+          </div>
         </div>
-        
+
+        <div class="stack">
+          <article class="content-card">
+            <div class="content-card__body">
+              <h3 style="text-align:center;">Как было раньше:</h3>
+
+              <div class="page-image page-image--small">
+                <img src="https://i.siteapi.org/Mon6GlNTMrjQB47rKqurRsi4qQo=/0x0:524x264/s2.siteapi.org/38c710c5e246400/img/2xv1rsdzzjuows844040kw4ok8ggwk" alt="Как было раньше" />
+              </div>
+
+              <p>При покупке шин на маркетплейсе покупателю предлагались ограниченные варианты доставки:</p>
+
+              <ul class="list-clean">
+                <li>самовывоз из пункта выдачи</li>
+                <li>доставка на дом</li>
+              </ul>
+
+              <p>Что происходило в итоге: Покупатель мог отказаться от покупки и уйти в другой интернет-магазин.</p>
+
+              <p><em>Проблема для маркетплейса: Маркетплейсам важно предлагать клиентам удобные и гибкие способы доставки, иначе они рискуют потерять покупателей и снизить продажи.</em></p>
+            </div>
+          </article>
+
+          <article class="content-card">
+            <div class="content-card__body">
+              <h3 style="text-align:center;">Решение проблемы: Сервис “Яша”. Интеграция маркетплейса с шиномонтажом</h3>
+
+              <div class="page-image">
+                <img src="https://i.siteapi.org/0liLSpG1j49c5Hix2DsDZPA39mc=/0x0:1200x397/s2.siteapi.org/38c710c5e246400/img/59zjb6uirfggk8s8w8koc0w04404k0" alt="Схема работы сервиса" />
+              </div>
+
+              <p>С нашим сервисом у маркетплейса появляется возможность отправлять шины напрямую в удобный для покупателя шиномонтаж!</p>
+
+              <h3>Как это работает:</h3>
+
+              <h3>Покупатель:</h3>
+              <ol class="list-clean">
+                <li>Выбирает шины</li>
+                <li>Указывает в качестве места доставки шиномонтаж, подключённый к сервису «Яша»</li>
+                <li>Оплачивает заказ</li>
+              </ol>
+
+              <p><em>Преимущество для покупателя: Покупатель получает больше свободы выбора и может сразу заказать доставку шин туда, где ему удобно быстро поставить или заменить их — в ближайший шиномонтаж.</em></p>
+
+              <h3>Сервис «Яша»:</h3>
+              <ul class="list-clean">
+                <li>Передаёт заявку в выбранный шиномонтаж</li>
+              </ul>
+
+              <h3>Шиномонтаж:</h3>
+              <ul class="list-clean">
+                <li>Получает заявку</li>
+                <li>Подтверждает продавцу готовность принять шины</li>
+                <li>Связывается с клиентом и договаривается о времени шиномонтажа</li>
+              </ul>
+
+              <h3>Маркетплейс:</h3>
+              <ul class="list-clean">
+                <li>Отгружает шины</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="content-card">
+            <div class="content-card__body">
+              <h3 style="text-align:center;">Выгода для маркетплейса:</h3>
+
+              <div class="icon-pair">
+                <img src="https://i.siteapi.org/7VrKMvzXwQyATIa_kot_3bBQVo0=/0x0:256x256/s2.siteapi.org/38c710c5e246400/img/skosr9t9y9co0go8ogwsc0sc00kgcc" alt="Выгода" />
+              </div>
+
+              <p>Рост продаж и повышение удовлетворённости покупателей — без дополнительных издержек.</p>
+
+              <p><em>Дополнительные преимущества:</em></p>
+
+              <ul class="list-clean">
+                <li>Увеличение конверсии за счёт нового, более удобного способа доставки</li>
+                <li>Снижение количества незавершённых заказов</li>
+                <li>Повышение конкурентоспособности за счёт уникального клиентского опыта</li>
+                <li>Расширение аудитории за счёт партнёрства с шиномонтажами</li>
+                <li>Автоматизация процесса — без увеличения нагрузки на службу поддержки</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="content-card">
+            <div class="content-card__body">
+              <h3 style="text-align:center;">Выгода для шиномонтажа:</h3>
+
+              <div class="icon-pair">
+                <img class="benefit-icon" src="https://i.siteapi.org/652Cx7ARQetFZJgPscQ8ibxAHIY=/0x0:900x900/s2.siteapi.org/38c710c5e246400/img/py9j128dxuogcg880ogkkokgwkckkw" alt="Выгода для шиномонтажа" />
+              </div>
+
+              <p>Привлечение новых клиентов и рост выручки без лишних вложений.</p>
+
+              <p><em>Дополнительные преимущества:</em></p>
+
+              <ul class="list-clean">
+                <li>Шиномонтаж получает доступ к широкой базе покупателей маркетплейса</li>
+                <li>Возможность удобно и быстро обрабатывать заявки через личный кабинет</li>
+                <li>Уведомления о новых заказах приходят сразу через мессенджеры или SMS</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="content-card">
+            <div class="content-card__body">
+              <h3 style="text-align:center;">Техническая реализация:</h3>
+
+              <div class="page-image">
+                <img src="https://i.siteapi.org/I6sOWQOMgQQh1jM_2fAwhIRhSvc=/0x0:1200x469/s2.siteapi.org/38c710c5e246400/img/pvtuoyiv3k040o8ow448swg8owcgwo" alt="Техническая реализация" />
+              </div>
+
+              <p><strong>Сервис «Яша» интегрируется с маркетплейсом в виде веб-формы и отображается как новый способ доставки — «До шиномонтажа».</strong></p>
+
+              <ul class="list-clean">
+                <li>Между маркетплейсом и сервисом «Яша» настроен автоматический обмен данными</li>
+                <li>Подключённый шиномонтаж получает доступ в личный кабинет для обработки входящих заявок</li>
+                <li>Уведомления о новых заявках шиномонтаж получает через мессенджеры или SMS</li>
+              </ul>
+
+              <p><em>Потенциал масштабирования: Сервис легко масштабируется и может подключать новые шиномонтажи, расширяя сеть доставки и улучшая сервис для покупателей.</em></p>
+
+              <div class="page-cta">
+                <a href="/services" class="button">Подключиться!</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h3>Сервис «Яша»</h3>
+          <p>Соединяет продавца шин с шиномонтажем.</p>
+        </div>
+        <div>
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/page/1750865">Описание сервиса</a></li>
+            <li><a href="/services">Подключение</a></li>
+            <li><a href="/contacts">Контакты</a></li>
+            <li><a href="/about_us">О нас</a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="stack">
-        <article class="info-card">
-          <div class="info-card__body">
-            <h3>Что делает сервис «Яша»</h3>
-            <p>
-              Покупатель заказывает шины и получает удобный сценарий дальнейшей установки в подключённом шиномонтаже.
-            </p>
-          </div>
-        </article>
-
-        <article class="info-card">
-          <div class="info-card__body">
-            <h3>Выгода для маркетплейсов</h3>
-            <p>
-              Маркетплейс получает дополнительную ценность для клиента, усиливает сервисную часть покупки и повышает привлекательность предложения.
-            </p>
-          </div>
-        </article>
-
-        <article class="info-card">
-          <div class="info-card__body">
-            <h3>Выгода для шиномонтажей</h3>
-            <p>
-              Подключённые шиномонтажи получают поток новых клиентов, которые уже купили шины и ищут место для установки.
-            </p>
-            <a class="button" href="/services">Подключиться</a>
-          </div>
-        </article>
+      <div class="footer__bottom">
+        <span>2024–2025 © Сервис «Яша»</span>
+        <span>Соединяет продавца шин с шиномонтажем</span>
       </div>
     </div>
-  </section>
-</main>
-
-<div id="footer"></div>
-
-<script src="/js/load-components.js"></script>
-
+  </footer>
 </body>
 </html>
