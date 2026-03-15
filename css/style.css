@@ -569,3 +569,14 @@ a { color: inherit; text-decoration: none; }
   width: 240px;
   height: auto;
 }
+
+
+.section__lead {
+  background: linear-gradient(90deg,#f5f7ff,#eef2ff);
+  padding: 18px 22px;
+  border-radius: 14px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 16px;
+  border-left: 4px solid #6366f1;
+}
